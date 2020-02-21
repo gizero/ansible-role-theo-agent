@@ -9,7 +9,7 @@ env:
     - MOLECULE_DISTRO=centos6
 
 install:
-  - pip install molecule[docker]
+  - pip install molecule[docker]==2.22
 
 before_script:
   - cd ..
